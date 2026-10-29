@@ -1,0 +1,26 @@
+# secrets / local state
+config.json
+state.json
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# node / wrangler
+node_modules/
+.wrangler/
+dist/
+
+# logs / screenshots
+*.log
+*.png
+
+# editor
+.DS_Store
+.idea/
+.vscode/
